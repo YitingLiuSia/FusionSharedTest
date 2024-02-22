@@ -1310,6 +1310,7 @@ GameObject:
   - component: {fileID: 833719066}
   - component: {fileID: 833719068}
   - component: {fileID: 833719067}
+  - component: {fileID: 833719069}
   m_Layer: 0
   m_Name: ConnectionManager
   m_TagString: Untagged
@@ -1335,7 +1336,7 @@ MonoBehaviour:
   playerCount: 0
   connectionCriterias: 1
   additionalSessionProperties: []
-  runner: {fileID: 0}
+  runner: {fileID: 833719066}
   userPrefab: {fileID: 4645078151347934457, guid: 0ac3ef29ecc128d4ba74dc484e39b08c, type: 3}
   onWillConnect:
     m_PersistentCalls:
@@ -1484,6 +1485,18 @@ MonoBehaviour:
   playerJoined: {fileID: 8300000, guid: 2312ee273bb507a4ab61e96acbbffc8a, type: 3}
   playerLeft: {fileID: 8300000, guid: c14998421118088488e7b9fce047ea95, type: 3}
   sessionStatus: {fileID: 1174131224}
+--- !u!114 &833719069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833719063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8edbe7108d8a43ab838cf8b8d9453df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &866083446
 GameObject:
   m_ObjectHideFlags: 0
