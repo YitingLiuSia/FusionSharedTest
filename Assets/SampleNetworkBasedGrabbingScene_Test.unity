@@ -12432,55 +12432,30 @@ PrefabInstance:
       objectReference: {fileID: 1237770063}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
---- !u!1 &1508424802 stripped
+--- !u!1 &1508424800 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6559198441471240592, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1084091470699946726, guid: 6821e1b7f44d8c44b8a2ba02f37309d5, type: 3}
   m_PrefabInstance: {fileID: 1508424799}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1508424808
+--- !u!114 &1508424801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508424802}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1508424800}
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e29a5da46f946a43a21a0c03ef7d768, type: 3}
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  networkTransform: {fileID: 0}
-  networkRigidbody: {fileID: 0}
-  _InitialIsKinematicState:
-    _value: 0
-  _CurrentGrabber: {fileID: 0}
-  _LocalPositionOffset: {x: 0, y: 0, z: 0}
-  _LocalRotationOffset: {x: 0, y: 0, z: 0, w: 0}
-  onDidUngrab:
-    m_PersistentCalls:
-      m_Calls: []
-  onDidGrab:
-    m_PersistentCalls:
-      m_Calls: []
-  extrapolateWhileTakingAuthority: 1
-  isTakingAuthority: 0
-  grabbable: {fileID: 0}
---- !u!114 &1508424809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508424802}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SyncScale: 0
-  SyncParent: 0
-  _autoAOIOverride: 1
-  DisableSharedModeInterpolation: 0
+  SortKey: 3531967446
+  ObjectInterest: 1
+  _DestroyWhenStateAuthorityLeaves: 0
+  _AllowStateAuthorityOverride: 1
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours: []
 --- !u!1 &1573549519
 GameObject:
   m_ObjectHideFlags: 0
