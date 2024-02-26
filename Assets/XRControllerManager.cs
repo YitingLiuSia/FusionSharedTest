@@ -1,6 +1,4 @@
 using Fusion;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class XRControllerManager : MonoBehaviour
@@ -17,15 +15,24 @@ public class XRControllerManager : MonoBehaviour
 
         hasStateAuthroity = GetComponent<NetworkObject>().HasStateAuthority;
 
-        if (hasStateAuthroity) {
+        if (hasStateAuthroity)
+        {
             localLleftController = GameObject.Find("Left Controller").transform;
             localRightController = GameObject.Find("Right Controller").transform;
 
             leftController = localLleftController;
             rightController = localRightController;
-
+            Debug.Log("XRControllerManager has state authority");
         }
     }
 
-   
+
+    private void Update()
+    {
+       /* if (hasStateAuthroity)
+        {
+            leftController.SetParent(localLleftController);
+            rightController.SetParent(localRightController);
+        }*/
+    }
 }
