@@ -3677,7 +3677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ac216f0eb04754b1d938aac6380b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ManipulationInteractionGroup: {fileID: 0}
+  m_ManipulationInteractionGroup: {fileID: 7734627513142404146}
   m_DirectInteractor: {fileID: 3378443419513002740}
   m_RayInteractor: {fileID: 4755245063090210647}
   m_TeleportInteractor: {fileID: 8929314164782981427}
@@ -3767,7 +3767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ac216f0eb04754b1d938aac6380b31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ManipulationInteractionGroup: {fileID: 0}
+  m_ManipulationInteractionGroup: {fileID: 1810622508823273886}
   m_DirectInteractor: {fileID: 8265702075185397543}
   m_RayInteractor: {fileID: 1518248236539274200}
   m_TeleportInteractor: {fileID: 4225078493403851606}
