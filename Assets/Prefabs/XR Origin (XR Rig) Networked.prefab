@@ -4182,7 +4182,7 @@ MonoBehaviour:
   hardwareRig: {fileID: 0}
   leftHand: {fileID: 7748282843922149205}
   rightHand: {fileID: 4065818224609842143}
-  headset: {fileID: 0}
+  headset: {fileID: 6701155521023823723}
   networkTransform: {fileID: 0}
 --- !u!1 &9103080301442767422
 GameObject:
