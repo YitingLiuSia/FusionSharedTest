@@ -33,22 +33,17 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
         var currentTime = (float)playable.GetTime();
         var fraction = currentTime / dur; 
 
-        Debug.Log($"fromColor {fromColor},toColor {toColor}, fraction {fraction}");
         currentColor = Color.Lerp(fromColor, toColor, currentTime/dur);// t is from 0-1
         mr.sharedMaterial.color= currentColor;
-        Debug.Log("color is "+mr.sharedMaterial.color);
 
     }
     public override void OnPlayableDestroy(Playable playable)
     {
         if (mr == null)
             return;
-
         mr.sharedMaterial.color = defaultColor;
 
-        Debug.Log("OnPlayableDestroy current material color is " + mr.sharedMaterial.color);
     }
-
     public override void OnBehaviourPlay(Playable playable, FrameData info)
     {
         if (mr == null)
