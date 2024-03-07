@@ -11,6 +11,8 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
     public Renderer mr = null;
 
     public Color defaultColor;
+    Color currentColor;
+
     public override void OnPlayableCreate(Playable playable)
     {
         if (mr == null)
@@ -20,6 +22,7 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
         mr.sharedMaterial.color = defaultColor;
 
    }
+
     public override void ProcessFrame(Playable playable, FrameData info, object playerData)
     {
         mr = playerData as Renderer;
@@ -27,9 +30,11 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
             return;
 
         var dur = (float)playable.GetDuration();
-        Debug.Log($"fromColor {fromColor},toColor {toColor}, dur {dur}");
+        var currentTime = (float)playable.GetTime();
+        var fraction = currentTime / dur; 
 
-        Color currentColor = Color.Lerp(fromColor, toColor, 2);
+        Debug.Log($"fromColor {fromColor},toColor {toColor}, fraction {fraction}");
+        currentColor = Color.Lerp(fromColor, toColor, currentTime/dur);// t is from 0-1
         mr.sharedMaterial.color= currentColor;
         Debug.Log("color is "+mr.sharedMaterial.color);
 
@@ -38,6 +43,7 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
     {
         if (mr == null)
             return;
+
         mr.sharedMaterial.color = defaultColor;
 
         Debug.Log("OnPlayableDestroy current material color is " + mr.sharedMaterial.color);
@@ -49,6 +55,7 @@ public class ColorGradientPlayableBehaviour : PlayableBehaviour
             return;
 
         mr.sharedMaterial.color = fromColor;
+
     }
     public override void OnBehaviourPause(Playable playable, FrameData info)
     {
