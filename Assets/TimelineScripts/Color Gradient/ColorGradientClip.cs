@@ -4,11 +4,11 @@ using UnityEngine.Timeline;
 using System;
 using UnityEngine;
 
+[Serializable]
 public class ColorGradientClip : PlayableAsset, ITimelineClipAsset
 {
-
     public ColorGradientPlayableBehaviour template = new ColorGradientPlayableBehaviour();
-    public ExposedReference<MeshRenderer> _mr; 
+    public ExposedReference< Renderer> _mr; 
     public Color _fromColor;
     public Color _toColor;
 
@@ -17,13 +17,10 @@ public class ColorGradientClip : PlayableAsset, ITimelineClipAsset
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {
         var playable = ScriptPlayable<ColorGradientPlayableBehaviour>.Create(graph);
-
-
-
         template = playable.GetBehaviour();
         template.fromColor = _fromColor; 
         template.toColor = _toColor;
-        template.mr = _mr.Resolve(graph.GetResolver());
+        template.mr = (Renderer)_mr.Resolve(graph.GetResolver());
 
         return playable;
     }

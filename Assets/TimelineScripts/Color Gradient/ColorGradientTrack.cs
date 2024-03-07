@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Timeline;
 
-[RequireComponent(typeof(ColorGradientClip))]
-[RequireComponent(typeof(ColorGradientPlayableBehaviour))]
-
+[TrackBindingType(typeof(MeshRenderer))]
+[TrackClipType(typeof(ColorGradientClip))]
 public class ColorGradientTrack : TrackAsset
 {
-  
 
 }

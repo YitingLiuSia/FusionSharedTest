@@ -2,13 +2,11 @@
 using UnityEngine;
 using UnityEngine.Playables;
 
-
 public class LightControlAsset : PlayableAsset
 {
     public ExposedReference<Light> light;
     public Color color = Color.white;
     public float intensity = 1f;
-
 
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
     {

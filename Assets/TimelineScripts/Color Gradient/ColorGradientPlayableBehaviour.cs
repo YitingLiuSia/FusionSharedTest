@@ -1,24 +1,66 @@
 
+using System;
 using UnityEngine;
 using UnityEngine.Playables;
 
+[Serializable]
 public class ColorGradientPlayableBehaviour : PlayableBehaviour
 {
-    public Color fromColor; 
+    public Color fromColor;
     public Color toColor;
-    public MeshRenderer mr=null;
-  
-    public override void ProcessFrame(Playable playable, FrameData info, object playerData)
+    public Renderer mr = null;
+
+    public Color defaultColor;
+    public override void OnPlayableCreate(Playable playable)
     {
         if (mr == null)
             return;
 
-        var currentTime = (float)playable.GetTime() / (float)playable.GetDuration();
-        Color currentColor = Color.Lerp(fromColor, toColor, currentTime);
-        mr.material.color = currentColor;
+        defaultColor = Color.white;
+        mr.sharedMaterial.color = defaultColor;
+
+   }
+    public override void ProcessFrame(Playable playable, FrameData info, object playerData)
+    {
+        mr = playerData as Renderer;
+        if (mr == null)
+            return;
+
+        var dur = (float)playable.GetDuration();
+        Debug.Log($"fromColor {fromColor},toColor {toColor}, dur {dur}");
+
+        Color currentColor = Color.Lerp(fromColor, toColor, 2);
+        mr.sharedMaterial.color= currentColor;
+        Debug.Log("color is "+mr.sharedMaterial.color);
+
+    }
+    public override void OnPlayableDestroy(Playable playable)
+    {
+        if (mr == null)
+            return;
+        mr.sharedMaterial.color = defaultColor;
+
+        Debug.Log("OnPlayableDestroy current material color is " + mr.sharedMaterial.color);
     }
 
+    public override void OnBehaviourPlay(Playable playable, FrameData info)
+    {
+        if (mr == null)
+            return;
 
+        mr.sharedMaterial.color = fromColor;
+    }
+    public override void OnBehaviourPause(Playable playable, FrameData info)
+    {
+
+        if (mr == null)
+            return;
+
+        mr.sharedMaterial.color = defaultColor;
+
+        Debug.Log("OnBehaviourPause current material color is " + mr.sharedMaterial.color);
+
+    }
 
 }
 
