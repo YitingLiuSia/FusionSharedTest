@@ -48,7 +48,7 @@ namespace Fusion.XR.Shared.Rig
         public TeleportEvent onTeleport = new TeleportEvent();
 
         RigState _rigState = default;
-        
+
         public virtual RigState RigState
         {
             get

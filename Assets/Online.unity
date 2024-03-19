@@ -883,9 +883,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5969614870521505817, guid: de54d41e8d606614abf41fb20e04fd60, type: 3}
+      propertyPath: roomName
+      value: NewScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5969614870521505817, guid: de54d41e8d606614abf41fb20e04fd60, type: 3}
       propertyPath: userPrefab
       value: 
-      objectReference: {fileID: 4645078151347934457, guid: 061ba20884b01ba4887ca303e4333f56, type: 3}
+      objectReference: {fileID: 1881007121964609449, guid: ae6c9f7c86bb29c479898faa44ae4de6, type: 3}
     - target: {fileID: 5969614870521505821, guid: de54d41e8d606614abf41fb20e04fd60, type: 3}
       propertyPath: sessionStatus
       value: 
