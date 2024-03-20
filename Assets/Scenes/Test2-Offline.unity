@@ -4325,6 +4325,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5969614870521505817, guid: de54d41e8d606614abf41fb20e04fd60, type: 3}
+      propertyPath: onlineBuildIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5969614870521505817, guid: de54d41e8d606614abf41fb20e04fd60, type: 3}
       propertyPath: connectionCriterias
       value: 0
       objectReference: {fileID: 0}
