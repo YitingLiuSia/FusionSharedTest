@@ -32,7 +32,7 @@ namespace Fusion.Addons.ConnectionManagerAddon
 
         [Header("Room configuration")]
         public GameMode gameMode = GameMode.Shared;
-        public string roomName = "SampleFusion";
+        public string roomName;
         public bool connectOnStart = true;
         [Tooltip("Set it to 0 to use the DefaultPlayers value, from the Global NetworkProjectConfig (simulation section)")]
         public int playerCount = 0;
