@@ -125,8 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b2dfec39f015045b1dbe3b2d68d390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onlineBuildIndex: 1
   gameMode: 2
-  roomName: SampleFusionVRSharedNetworkBasedGrabbing
+  roomName: 
   connectOnStart: 1
   playerCount: 0
   connectionCriterias: 1

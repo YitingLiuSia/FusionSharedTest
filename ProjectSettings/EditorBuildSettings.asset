@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test2-Offline.unity
-    guid: 06a6eb04ec5c7f744b904c62165e7b22
+    path: Assets/Scenes/Testing_OpenXR/OpenXR-Offline.unity
+    guid: aae7370901894004bb069fc72cae107e
   - enabled: 1
-    path: Assets/Scenes/Test2-Online.unity
-    guid: 286899328e469664da79eda2c50a74e2
+    path: Assets/Scenes/Testing_OpenXR/OpenXR-Online.unity
+    guid: b59266527498a3b46b9eaf3377ab575a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 741c847d5020c974f95fc22276825150, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9bd7077edc5b871469aa672a34c4ef3a, type: 2}

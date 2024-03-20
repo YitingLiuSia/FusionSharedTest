@@ -43,8 +43,12 @@ public class UpdateConnectionStatus : MonoBehaviour, INetworkRunnerCallbacks
 
     private void DebugLog(string debug)
     {
-        sessionStatus.text = debug;
         Debug.Log(debug);
+
+
+        if (sessionStatus == null)
+            return; 
+        sessionStatus.text = debug;
     }
 
     void OnWillConnect()
