@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8026a52164f200459a4ec7cdad64c2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1881007120768401705}
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   startFadeLevel: 0
   colorNameMaterialProperty: _Color

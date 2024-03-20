@@ -30,6 +30,8 @@ namespace Fusion.Addons.ConnectionManagerAddon
             public string value;
         }
 
+        [Header("Online Scene BuildIndex")]
+        public int onlineBuildIndex; 
         [Header("Room configuration")]
         public GameMode gameMode = GameMode.Shared;
         public string roomName;
@@ -128,6 +130,11 @@ namespace Fusion.Addons.ConnectionManagerAddon
             return sceneInfo;
         }
 
+
+        public virtual NetworkSceneInfo GetSceneInfo(int sceneIndex) {
+
+            return SceneRef.FromIndex(sceneIndex);
+        }
         public async Task Connect()
         {
             // Create the scene manager if it does not exist
@@ -138,7 +145,7 @@ namespace Fusion.Addons.ConnectionManagerAddon
             var args = new StartGameArgs()
             {
                 GameMode = gameMode,
-                Scene = CurrentSceneInfo(),
+                Scene = GetSceneInfo(onlineBuildIndex),// Use this to load into the online scene 
                 SceneManager = sceneManager
             };
             // Connection criteria
@@ -257,8 +264,15 @@ namespace Fusion.Addons.ConnectionManagerAddon
         public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data) { }
         public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken) { }
         public void OnReliableDataReceived(NetworkRunner runner, PlayerRef player, ArraySegment<byte> data) { }
-        public void OnSceneLoadDone(NetworkRunner runner) { }
-        public void OnSceneLoadStart(NetworkRunner runner) { }
+        public void OnSceneLoadDone(NetworkRunner runner) {
+
+            Debug.Log("current scene info" + CurrentSceneInfo().ToString());
+            Debug.Log("scene loaded is done");
+        }
+        public void OnSceneLoadStart(NetworkRunner runner) {
+            Debug.Log("OnSceneLoadStart");
+
+        }
         public void OnObjectExitAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player) { }
         public void OnObjectEnterAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player) { }
         public void OnReliableDataReceived(NetworkRunner runner, PlayerRef player, ReliableKey key, ArraySegment<byte> data) { }
