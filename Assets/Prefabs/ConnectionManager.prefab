@@ -128,12 +128,12 @@ MonoBehaviour:
   onlineBuildIndex: 1
   gameMode: 2
   roomName: 
-  connectOnStart: 1
+  connectOnStart: 0
   playerCount: 0
   connectionCriterias: 1
   additionalSessionProperties: []
   runner: {fileID: 5969614870521505819}
-  userPrefab: {fileID: 4645078151347934457, guid: 0ac3ef29ecc128d4ba74dc484e39b08c, type: 3}
+  userPrefab: {fileID: 8807035099846156902, guid: 1c1be34b2af81664ca0cb2585a4ae709, type: 3}
   onWillConnect:
     m_PersistentCalls:
       m_Calls: []
