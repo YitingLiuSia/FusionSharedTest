@@ -206,6 +206,11 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 559029960722376003}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &559029962455994934 stripped
+AudioListener:
+  m_CorrespondingSourceObject: {fileID: 1767192437, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 559029960722376003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1158960417563806574 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -230,10 +235,25 @@ MonoBehaviour:
   Flags: 262145
   NestedObjects: []
   NetworkedBehaviours:
+  - {fileID: 5484907636162438580}
   - {fileID: 8801192760392370164}
   - {fileID: 5379827965267171466}
   - {fileID: 6888635735375858378}
   - {fileID: 3979298873450858186}
+--- !u!114 &5484907636162438580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158960417563806574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e8e01afbcdb8d41924052f6aa84432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 559029962455994932}
+  audioListener: {fileID: 559029962455994934}
 --- !u!114 &8801192760392370164
 MonoBehaviour:
   m_ObjectHideFlags: 0
