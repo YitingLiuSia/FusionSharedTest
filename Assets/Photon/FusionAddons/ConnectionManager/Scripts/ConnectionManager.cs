@@ -81,6 +81,12 @@ namespace Fusion.Addons.ConnectionManagerAddon
             if (connectOnStart) await Connect();
         }
 
+        public async void ConnectToNext()
+        {
+
+            await Connect();
+
+        }
         Dictionary<string, SessionProperty> AllConnectionSessionProperties
         {
             get

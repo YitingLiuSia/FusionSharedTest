@@ -7,23 +7,29 @@ using UnityEngine.SceneManagement;
 
 public class TestingManager : MonoBehaviour
 {
-    private ConnectionManager connectionManager;
+    /*    private ConnectionManager connectionManager;
+    */
     [SerializeField] InputAction connectionAction;
 
     private void Awake()
     {
-        connectionManager = GameObject.FindObjectOfType<ConnectionManager>();
+        /*  connectionManager = GameObject.FindObjectOfType<ConnectionManager>();*/
 
         connectionAction = new InputAction(binding: "<keyboard>/space");
         connectionAction.Enable();
-       // connectionManager.onWillConnect.AddListener(LoadNewScene);
+        // connectionManager.onWillConnect.AddListener(LoadNewScene);
+        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
+        {
+            Debug.Log($"scene at {i} is {SceneManager.GetSceneByBuildIndex(i).name}");
+        }
 
     }
     private void Update()
     {
         if (connectionAction.triggered)
         {
-            _ = UpdateAsync();
+            /*  _ = UpdateAsync();*/
+            LoadNewScene();
 
         }
     }
@@ -33,19 +39,23 @@ public class TestingManager : MonoBehaviour
         connectionAction.Disable();
     }
 
+
     async Task UpdateAsync()
     {
         Debug.Log("update async");
 
-        await connectionManager.Connect();
+        //  await connectionManager.Connect();
 
     }
-    private void LoadNewScene()
+    public void LoadNewScene()
     {
-        Debug.Log("scene ref from index 1 isvalid" + SceneRef.FromIndex(1).IsValid);
+        /*        Debug.Log("scene ref from index 1 isvalid" + SceneRef.FromIndex(1).IsValid);
+                Debug.Log("load new scene " + SceneRef.FromIndex(1));
+        */
+     
+        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
 
-        Debug.Log("load new scene " + SceneRef.FromIndex(1));
-        connectionManager.runner.LoadScene(SceneRef.FromIndex(1), LoadSceneMode.Additive);
+        // connectionManager.runner.LoadScene(SceneRef.FromIndex(1), LoadSceneMode.Single);
 
     }
 }
