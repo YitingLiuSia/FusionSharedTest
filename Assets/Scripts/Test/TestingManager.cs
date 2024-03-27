@@ -17,7 +17,6 @@ public class TestingManager : MonoBehaviour
             Debug.Log($"scene at {i} is {SceneManager.GetSceneByBuildIndex(i).name}");
         }
     }
-
     private void Update()
     {
         if (connectionAction.triggered)
@@ -26,17 +25,13 @@ public class TestingManager : MonoBehaviour
             LoadNewScene();
         }
     }
-
     void OnDestroy()
     {
         connectionAction.Disable();
     }
-
     public void SetUserNameInOffline()
     {
-
         PlayerPrefs.SetString(userNameTitle, inputField.text);
-
     }
     public void LoadNewScene()
     {
