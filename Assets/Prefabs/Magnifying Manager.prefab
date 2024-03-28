@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3512476814711780007}
   - component: {fileID: 3522711469032462915}
   - component: {fileID: 8880905287914729540}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7370831240998583619}
   - component: {fileID: 550803268209453891}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Title Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3903859976397663860}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 8199110330263951450}
   - component: {fileID: 1728882889989846430}
   - component: {fileID: 3724895967389178004}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 4619594999199275354}
   - component: {fileID: 3066994361353504465}
   - component: {fileID: 6056493939638514066}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Obj Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 4619594999640697857}
   - component: {fileID: 4619594999640697863}
   - component: {fileID: 8940758841538620901}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -594,7 +594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4619594999730334736}
   - component: {fileID: 4619594999730334739}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: 'Magnifying Panel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 4619594999747200554}
   - component: {fileID: 4619594999747200555}
   - component: {fileID: 5570309374214195465}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: 'Magnifying Content '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -790,7 +790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6305000364542266233}
   - component: {fileID: 474457384334466866}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7215052794028200581}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: REPLACE CHILD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 5258977262408566201}
   - component: {fileID: 7542347031087946374}
   - component: {fileID: 9064022454999693227}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Magnifying Glass Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}

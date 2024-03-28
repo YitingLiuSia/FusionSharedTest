@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 639807822028480045}
   - component: {fileID: 639807822028480051}
   - component: {fileID: 639807822028480044}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 6238296637850098943}
   - component: {fileID: 5399823172528464082}
   - component: {fileID: 2388572917632990422}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Obj_Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 639807823110882601}
   - component: {fileID: 639807823110882607}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +452,7 @@ GameObject:
   - component: {fileID: 639807823317899779}
   - component: {fileID: 2340656920207646712}
   - component: {fileID: 2146542688924665198}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Obj Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,7 +610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639807823390209708}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -641,7 +641,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639807823936966038}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Obj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 639807823959543203}
   - component: {fileID: 639807823959543196}
   - component: {fileID: 639807823959543197}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -771,7 +771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8137826360231303521}
   - component: {fileID: 8308743864782133047}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: 'Magnifying Panel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -818,7 +818,7 @@ GameObject:
   - component: {fileID: 8156509992674726079}
   - component: {fileID: 8348031290258515188}
   - component: {fileID: 8146438446718503149}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: 'Magnifying Content '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5158019461072884425}
   - component: {fileID: 2852180827967107556}
   - component: {fileID: 9220373660368278767}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6507321758684599189}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Reset Station
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6507321758741291964}
   - component: {fileID: 6507321758741291966}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Button Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 6507321759017416012}
   - component: {fileID: 6507321759017416013}
   - component: {fileID: 6507321759017416010}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 6507321759197643586}
   - component: {fileID: 6507321759197643587}
   - component: {fileID: 6507321759197643584}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 6507321760003587420}
   - component: {fileID: 6507321760003587421}
   - component: {fileID: 2819175075404518805}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}

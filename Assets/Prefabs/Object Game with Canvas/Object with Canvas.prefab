@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7682133088750345697}
   - component: {fileID: 1702716220299387052}
   - component: {fileID: 8087428174734432042}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 4305554259560276882}
   - component: {fileID: 4305554259560276893}
   - component: {fileID: 1829755337731146841}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4305554259576837256}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Attach Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4305554259891092903}
   - component: {fileID: 4305554259891092900}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Content Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 5858155053447695038}
   - component: {fileID: 3445397488079961597}
   - component: {fileID: 1403928709459989508}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Obj Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 355827690779851940}
   - component: {fileID: 5997803340545374491}
   - component: {fileID: 3736862080271183993}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Object with Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   - component: {fileID: 4305554260418398789}
   - component: {fileID: 4305554260418398788}
   - component: {fileID: 3932145194046195046}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 'Magnifying Content '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -856,7 +856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4305554260435279999}
   - component: {fileID: 4305554260435279996}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 'Magnifying Panel '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -901,7 +901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4305554260909033224}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Obj Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 4305554261238148094}
   - component: {fileID: 4305554261238148089}
   - component: {fileID: 4305554261238148088}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: 'REPLACE ME '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   - component: {fileID: 726601827259028533}
   - component: {fileID: 7791867479951325681}
   - component: {fileID: 5218830571865019643}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3456018519160725412}
   - component: {fileID: 8836275929769322725}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Title Panel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,7 +1228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131904747477709100}
   - component: {fileID: 8969102568371087148}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Title Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1276,7 +1276,7 @@ GameObject:
   - component: {fileID: 2382775796132219188}
   - component: {fileID: 5974404421024964678}
   - component: {fileID: 6954127542605067946}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1370,7 +1370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1217208073679924653}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
